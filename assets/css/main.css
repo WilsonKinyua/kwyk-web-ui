@@ -39,6 +39,7 @@
 .first {
     
     background-color: rgb(255, 255, 255);
+	padding: 20px;
     
 }
 
@@ -137,13 +138,65 @@
 	
 }
 
-    /*!
- * Bootstrap v4.0.0-alpha.5 (https://getbootstrap.com)
- * Copyright 2011-2016 The Bootstrap Authors
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */html {
+.collections .banner-item img {
+	height: 150px; 
+	width: 150px;
+	padding: 20px;
+}
+
+.ads_display {
+	margin-top: 20px; 
+	padding: 10px; 
+	margin-right: 15px;
+}
+
+.ads_parag1 {
+	font-weight: 600;
+	font-size: 2rem;
+	color:white;
+	margin-top: 1rem!important; 
+	margin-left: 1rem!important; 
+	margin-bottom: 3rem!important;
+
+}
+
+.ads_parag2 {
+	margin-top: 1rem!important;
+	margin-left: 1rem!important; 
+	margin-bottom: 0.9rem!important;
+	color:white;
+	text-align: center; 
+	font-size: 2rem;
+}
+
+.down #footer, .footer-container {
+	background-color: rgb(44, 39, 39) !important;
+	 color:white!important;
+}
+
+.down .links .footer_block , .hidden-sm-down, h3, i {
+	color: white !important;
+}
+
+#footer_2 .cms-page-link, #footer_3 .cms-page-link {
+	color:rgb(223, 205, 205) !important;
+}
+
+.topnav-right i {
+	color: #579bc0 !important;
+}
+
+#wrapper .static_cms .top-bars {
+	border: 4px solid #efefef !important; 
+	background-color: rgb(255, 255, 255) !important; 
+	border-radius: 10px; 
+	text-align: center;
+}
+#top-bars {
+	background-color: #efefef !important;
+	border: none;
+}
+html {
 	font-family: sans-serif;
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
@@ -429,7 +482,9 @@ body {
 	font-size:40px;
 }
 
-
+.bottom-h1 i {
+	color: black !important;
+}
 .static_cms .txt_cms h2 {
 	color: #000000;
 	
@@ -36315,8 +36370,13 @@ main {
 	border-radius: 5px;
 	padding: 16px 20px;
 	margin-bottom: 20px;
+	background-color: rgb(255, 255, 255) !important;
 }
 
+.static_cms .col-cms {
+	border: 2px solid rgb(255, 255, 255) !important;
+	text-align: center;
+}
 @media (max-width:767px) {
 	.static_cms {
 		margin-bottom: 30px;
@@ -36402,7 +36462,7 @@ main {
 .banner-item {
 	position: relative;
 	overflow: hidden;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     /* padding:10px; */
 }
 
@@ -36483,6 +36543,8 @@ main {
 .ads {
     background-color: rgb(255, 255, 255);
     margin-bottom: 0px;
+	margin-top: 20px;
+	 padding: 10px;
 }
 .home-ban {
 	position: relative;
